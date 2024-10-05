@@ -17,3 +17,10 @@ const fun = (value: string) => {
 
 fun("Marcos Paulo");
 fun("10");
+
+// Deifinindo o type da entrada(parâmetro) e da saída(return)
+const fun2 = (value2:string): string => {
+    return value2;
+}
+
+console.log(fun2("Tanto o valor de entreda tem de ser string quanto o valor de saída."));
